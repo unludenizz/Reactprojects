@@ -1,0 +1,73 @@
+body{
+  background: wheat;
+}
+
+.App{
+  text-align: center;
+  font-size: large;
+}
+
+.comp{
+  margin: 40px;
+  
+}
+
+.field {
+  max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(211, 134, 134);
+  margin: 0 auto;
+  align-items: center;
+  justify-content:center;
+  margin-top: 70px;
+  border-radius: 15px;
+}
+
+
+.inputfield{
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.Add{
+  margin-top: 10px;
+  margin-left: 0px;
+  background: green;
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+.Add:hover{
+  background:rgb(21, 185, 21);
+  transform: translateY(-5%);
+}
+.DeleteAll{
+  margin-top: 10px;
+  margin-left: 15px;
+  background: rgb(173, 4, 4);
+  cursor: pointer;
+  border-radius: 15px;
+}
+.DeleteAll:hover{
+  background:rgb(233, 27, 27);
+  transform: translateY(-5%);
+}
+
+li{
+  position:relative;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.X{
+  margin-left: 260px;
+  background: transparent;
+  border-color: transparent;
+  color:red;
+  font-size: large;
+  cursor: pointer;
+}
+.completed{
+  text-decoration: line-through;
+}
